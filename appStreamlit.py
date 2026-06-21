@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model = joblib.load("artifacts/credit_prediction_pipeline.pkl")
+model = joblib.load("credit_prediction_pipeline.pkl")
 
 st.set_page_config(page_title="Credit Score Prediction", page_icon="💳", layout="centered")
 
